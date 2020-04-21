@@ -58,6 +58,7 @@ onChangeComment=(e)=> {
       this.props.questionHandle(payload);
       browserHistory.push('./desktopform'); 
   }
+  
   render() {
     const {Employee_Id, Asset_Number,Name,MAC_Address,Comment } = this.state 
     return (
