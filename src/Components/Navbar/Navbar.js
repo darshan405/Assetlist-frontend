@@ -22,7 +22,7 @@ class Navbar extends Component {
                 </div>
                 
                 <div className="col-xs-1 col-sm-1 col-md-2 col-lg-1" style={{color:'white'}}>
-                <button onClick={this.onHandleClick}> Register</button>
+                <button onClick={this.onHandleClick}> </button>
                 </div>
                 <div className="col-xs-1 col-sm-1 col-md-2 col-lg-1" style={{color:'white'}} >
                 <button > Signin</button>
